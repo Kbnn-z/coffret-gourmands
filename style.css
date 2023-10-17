@@ -178,3 +178,13 @@ body {
   margin-right: auto;
 }
 
+
+.block1{
+  display: flex;
+}
+
+.photo_apero{
+  padding-left: 20%;
+  
+}
+
