@@ -188,3 +188,24 @@ body {
   
 }
 
+.container {
+  padding-top: 50px;
+  padding-left: 100px;
+  display: flex;
+  gap: 50px ;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: black;
+  height: 250px;
+  width: 250px;
+  border-radius: 2px;
+}
+
+a:hover .card {
+  background-color: black;
+  box-shadow: 7px 5px 5px black;
+}
+
+
