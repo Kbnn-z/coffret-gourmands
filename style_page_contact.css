@@ -16,6 +16,8 @@
   }
   
 .screen {
+    height: 500px;
+    width: 100em;
     position: relative;
     background: #000000;
     border-radius: 15px;

@@ -6,7 +6,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: rgb(var(--bs-tertiary-color-rgb));
- background-color: white;
+  background-color: white;
 } 
 
 p {
@@ -20,6 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 ul, ol {
   color: black;
 }
+
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -101,7 +103,7 @@ ul, ol {
   user-select: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 10px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
@@ -142,7 +144,6 @@ ul, ol {
   overflow-x: auto;
   text-align: center;
   white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
 }
 
 .btn-bd-primary {
@@ -188,17 +189,10 @@ ul, ol {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
-
-.block1{
-  display: flex;
-}
-
-.photo_apero{
-  padding-left: 20%;
-  
-}
+/*coffrets */
 
 .container {
   padding-top: 50px;

@@ -6,6 +6,19 @@ body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: rgb(var(--bs-tertiary-color-rgb));
+    background-color: white;
+  } 
+  
+  p {
+    color: black;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: black;
+  }
+  
+  ul, ol {
+    color: black;
   }
   
   
@@ -130,7 +143,6 @@ body {
     overflow-x: auto;
     text-align: center;
     white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
   }
   
   .btn-bd-primary {
@@ -181,6 +193,7 @@ body {
   .texte{
     padding-left: 2%;
     padding-right: 2%;
+    color: black;
   }
   
   
