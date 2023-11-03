@@ -12,6 +12,7 @@
     <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link rel="icon" href="./media/Logo.png">
+    <script src="barre_recherche.js"> </script>
   </head>
   <body> 
 <header data-bs-theme="dark">
@@ -37,7 +38,7 @@
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+          <input class="form-control me-2" type="search" id="search" values="" onchange="barreRecherche()" placeholder="Rechercher" >
           <button class="btn btn-outline-success" type="submit">Rechercher</button>
         </form>
       </div>
