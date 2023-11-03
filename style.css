@@ -179,6 +179,14 @@ ul, ol {
   text-align: center;
 }
 
+.texte{
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  color: black;
+}
+
+
 .logo {
   display: block;
   margin-left: auto;
