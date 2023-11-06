@@ -72,4 +72,12 @@ function barreRecherche(){
     if(a === "Coffret mystère"){
         window.open("page_coffret_surprise.html");
     }
+
+    if(a === "Connexion"){
+        window.open("page_connexion.html");
+    }
+
+    if(a === "Inscription"){
+        window.open("page_connexion.html");
+    }
 }
